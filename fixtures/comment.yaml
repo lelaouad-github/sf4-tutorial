@@ -1,0 +1,6 @@
+App\Entity\Comment:
+  comment_{1..90}:
+    title: <sentence()>
+    content: <paragraph()>
+    author: <firstname() lastname()>
+    article: '@article_*'
